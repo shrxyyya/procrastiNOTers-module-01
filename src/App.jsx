@@ -18,7 +18,7 @@ const Model = () => {
   dracoLoader.setDecoderPath('https://www.gstatic.com/draco/versioned/decoders/1.5.7/')
   loader.setDRACOLoader(dracoLoader)
 
-  return <primitive ref={ref} object={glb.scene} scale={[3, 3, 3]} />;
+  return <primitive ref={ref} object={glb.scene} scale={[0.2, 0.2, 0.2]} />;
 };
 
 
