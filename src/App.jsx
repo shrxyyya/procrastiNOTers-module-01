@@ -10,7 +10,7 @@ import { DRACOLoader } from "three/examples/jsm/loaders/DRACOLoader";
 
 // Component to load the GLB file
 const Model = () => {
-  const glb = useLoader(GLTFLoader, '/public/mikudayo.glb');
+  const glb = useLoader(GLTFLoader, '/mikudayo.glb');
   const ref = useRef();
 
   const loader = new GLTFLoader();
